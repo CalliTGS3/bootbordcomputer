@@ -1,0 +1,25 @@
+{
+    "name": "BootBordcomputer",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "calliope_l298_motors": "github:CalliTGS3/calliope_l298_motors#cfd3459ca66a167e13b54c8b181c148accf13ea0",
+        "radio": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.29",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
